@@ -1,373 +1,796 @@
 
-<!DOCTYPE html><html lang="en" class="web fonts-loaded"><head>  <link rel="preconnect" href="//res.cloudinary.com">  <link rel="preconnect" href="//analytics.swiggy.com">  <link rel="preconnect" href="//payments.swiggy.com">   <link rel="dns-prefetch" href="//res.cloudinary.com">  <link rel="dns-prefetch" href="//analytics.swiggy.com">  <script>!function(e,t,a,n,m){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-KCZG4Z2",g.parentNode.insertBefore(r,g)}(window,document,"script","dataLayer")</script> <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="full-screen" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">  <link rel="icon" href="data:,">  <title>Swiggy Instamart</title>   <link rel="icon" sizes="96x96" href="https://res.cloudinary.com/swiggy/image/upload/portal/c/favicon-96x96.ico">   <link rel="icon" sizes="32x32" href="https://res.cloudinary.com/swiggy/image/upload/portal/c/favicon-32x32.ico">   <link rel="icon" sizes="16x16" href="https://res.cloudinary.com/swiggy/image/upload/portal/c/favicon-16x16.ico">   <meta name="og:title" content="Swiggy Instamart"><meta name="title" content="Swiggy Instamart">   <meta name="og:description" content="Groceries delivered in 30-45 mins"><meta name="description" content="Groceries delivered in 30-45 mins">   <meta name="keywords" content="Instamart, Swiggy, fast delivery, groceries, essentials, 30-45 mins, Bangalore, Gurgaon, online grocery, online grocery delhi, online grocery bangalore, online grocery shopping, online grocery store, online supermarket, online grocery shopping india, buy groceries online, fruits, vegetables, dairy, kirana, colgate, amul, britannia, fortune, kwality walls, kelloggs, pampers, durex, maggi, cadbury, aashirwaad, prasuma, akshayakalpa, raw pressery, id fresh, epigamia, yoga bar, mamaearth, beardo, 4700bc popcorn">   <meta name="robots" content="index, follow">   <meta name="language" content="English">   <meta charset="charset=utf-8">     <link rel="preload" as="script" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/manifest.es6.33ddb9e3adaf33e6.js">  <link rel="preload" as="script" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/vendors.es6.e81e3325e64413f8.js">  <link rel="preload" as="script" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/app.es6.53d8d2fb679caa91.js">          <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/600.bae1b5.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/300.ba01ac.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/700.b357ad.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/200.e268be.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/400.6c07a7.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/500.3af6fd.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_BOLD.a2521a.woff2" as="font" type="font/woff2" crossorigin="anonymous">   <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">  <link rel="preload" href="https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">     <style>:root {
-        --ios-statusbar-height: 0px;
-        --ios-bottom-offset: 0px;
-    }    </style> <script>window.loadJS = function(src, callback) {
-            var script = document.createElement("script"),
-                loaded;
-            script.src = src;
-            script.async = true;
-            script.crossorigin = "anonymous";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- OneTrust Cookies Consent Notice start -->
+<script src="https://cdn.cookielaw.org/consent/2e51f33c-7357-4726-a424-0e3731a745b2/OtAutoBlock.js" integrity="sha256-NQgyb7jk0oPjxvYmBeNx8vX8wMTub9CTJG4dNMPBEcw= sha384-EugYQ8wrPS7a5tU4DNvMIY9vQn0cz+ZR6JjPgN58DaA0bZHsseBay45viJ52ouPD sha512-EAPkuXYGaPun4y2UlSirb9aJ6asU0xln+V3nEIZNAgZXFwidQUWvkLWnjSqT5/Z4kRd+SnyXtjBpJ90yURwKqA==" crossorigin="anonymous"></script>
 
-            if (callback) {
-                script.onreadystatechange = script.onload = function () {
-                    if (!loaded) {
-                        callback(window);
-                    }
-                    loaded = true;
-                };
-            }
-            document
-                .getElementsByTagName("head")[0]
-                .appendChild(script);
-        }
-    function _SentryCaptureMessage(msg, url, ln) {
-        if (window.Sentry) {
-            window.Sentry.withScope(function (scope) {
-                scope.setExtra("source", url);
-                window.Sentry.captureException(msg);
-            });
-        } 
-        else {
-            window._swgy_errors.push([msg, url, ln]);
-        }
-    }
-
-    (function (w) {
-        if (typeof Sentry == "undefined") {
-            w._swgy_errors = w._swgy_errors || [];
-            w.addEventListener("error", _SentryCaptureMessage, false);
-        }
-    })(window);
-
-   
-
-    loadJS("https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/libs/sentry.js", function (w) {
-        w.removeEventListener("error", _SentryCaptureMessage, false);
-        const obj= {
-            dsn: "https://3ba6a28a1b314e3aa53751d2a80bd021@sentry.io/5217740",
-            release: "dash-front-2.86.0",
-            environment: "production",
-            ignoreErrors: [
-                 "top.GLOBALS",
-                // See: http://blog.errorception.com/2012/03/tale-of-unfindable-js-error.html
-                "originalCreateNotification",
-                "canvas.contentDocument",
-                "MyApp_RemoveAllHighlights",
-                "atomicFindClose",
-                // Facebook borked
-                "fb_xd_fragment",
-                // See http://stackoverflow.com/questions/4113268/how-to-stop-javascript-injection-from-vodafone-proxy
-                "bmi_SafeAddOnload",
-                "EBCallBackMessageReceived",
-                // Happens sometimes
-                /.*Blocked a frame with origin.*/i,
-                // Internet connectivity issue
-                /.*failed to fetch.*/i,
-                // Internet connectivity issue in loading chunks
-                /.*Loading chunk.*failed.*/i,
-                // Internet issue
-                /.*Network request failed.*/i,
-                // offline
-                /.*offline.*/gi,
-                // iOS error caused when webapp goes in background
-                /.*abort.*/i,
-                // API timeouts
-                /.*timeout.*/i,
-                /.*timed out.*/i,
-                // Client lost network connection
-                /.*connection.*lost.*/i,
-                // Tracking cancelled fetch request errors
-                /.*cancelled.*/i,
-            ],
-            debug: "production" !== "production",
-        }
-        w.Sentry.init(obj);
-
-        const extraKeys = {
-            versionCode: "1200",
-            userName: "",
-            deviceId: "c32ebd00-115c-dcee-3795-fb24d2c0b321",
-            tid: "49aec4d2-88ec-4194-bcb2-21776675ca97",
-            sid: "5ma2ee36-b9dd-4da5-a0af-d41133b5c222",
-            platform: "web",
-            userId: "0",
-            isEs6: "true"
-        };
-        w.Sentry.withScope(scope => {
-            scope.setContext("AdditionalData", extraKeys);
-        });
-        w._swgy_errors = w._swgy_errors || [];
-        for (var i = 0; i < w._swgy_errors.length; i++) {
-            w.Sentry.withScope(scope => {
-                scope.setExtra("source", w._swgy_errors[i][1]);
-                scope.setExtra("line", w._swgy_errors[i][2]);
-                w.Sentry.captureException(w._swgy_errors[i][0]);
-            });
-        }
-
-        w.addEventListener("unhandledrejection", function (e) {
-            w.Sentry.captureException(e.reason);
-        });
-
-        w.addEventListener("rejectionhandled", function (e) {
-            w.Sentry.captureException(e.reason);
-        });
-
-    });</script>  <script>!function(c,f){var t,o,i,e=[],r={passive:!0,capture:!0},n=new Date,a="pointerup",u="pointercancel";function p(n,e){t||(t=e,o=n,i=new Date,w(f),s())}function s(){0<=o&&o<i-n&&(e.forEach(function(n){n(o,t)}),e=[])}function l(n){if(n.cancelable){var e=(1e12<n.timeStamp?new Date:performance.now())-n.timeStamp;"pointerdown"==n.type?function(n,e){function t(){p(n,e),i()}function o(){i()}function i(){f(a,t,r),f(u,o,r)}c(a,t,r),c(u,o,r)}(e,n):p(e,n)}}function w(e){["click","mousedown","keydown","touchstart","pointerdown"].forEach(function(n){e(n,l,r)})}w(c),self.perfMetrics=self.perfMetrics||{},self.perfMetrics.onFirstInputDelay=function(n){e.push(n),s()}}(addEventListener,removeEventListener)</script>  </head><body><div id="root" style="height: 100%;"><style swgy-inline-style>._3IqZh{background:#881952}._3IqZh .eR87u{display:inline;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;height:80px}._3IqZh .eR87u ._3VmBf,._3IqZh .eR87u ._66Yrl,._3IqZh .eR87u .cVSBF{-webkit-box-flex:1;-webkit-flex:1;flex:1}._3IqZh .eR87u ._3yilN{color:#fff;font-size:1.42857rem;text-align:center}._3IqZh .eR87u ._66Yrl{text-align:end}._3IqZh .eR87u ._66Yrl ._3LgaU{margin:0 16px} ._2QIHQ{position:relative} ._2FQSs{position:relative;background:#fef8fc}._2FQSs ._3E_Qs{position:absolute;width:100%;left:0;bottom:-1px;z-index:0}._2FQSs ._3QPwG{padding:0}._2FQSs ._3cZlk{fill:#ff5422}._2FQSs ._2E8rI{display:-webkit-box;display:-webkit-flex;display:flex}._2FQSs ._2E8rI .IHTRc{margin-bottom:-5px;-webkit-box-flex:1;-webkit-flex:1;flex:1}._2FQSs ._2E8rI .IHTRc .a7w1y{height:42.85714rem;margin-bottom:3rem}._2FQSs ._2E8rI ._2BUP9{-webkit-box-flex:1;-webkit-flex:1;flex:1;padding:0 60px;padding-bottom:0;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end}@media only screen and (min-width:1200px) and (max-width:1300px){._2FQSs ._2E8rI ._2BUP9{padding-left:0}}._2FQSs ._2E8rI ._2BUP9 ._2YPL1{font-size:3.42857rem;font-weight:700}._2FQSs ._2E8rI ._2BUP9 ._2DcQh,._2FQSs ._2E8rI ._2BUP9 .vrRbf{cursor:pointer;height:3.57143rem;-webkit-transition:-webkit-transform .2s ease-in-out;transition:-webkit-transform .2s ease-in-out;transition:transform .2s ease-in-out;transition:transform .2s ease-in-out, -webkit-transform .2s ease-in-out}._2FQSs ._2E8rI ._2BUP9 ._2DcQh:hover,._2FQSs ._2E8rI ._2BUP9 .vrRbf:hover{-webkit-transform:scale(1.1);transform:scale(1.1)}._2FQSs ._2E8rI ._2BUP9 .vrRbf{padding-left:24px}._2FQSs ._2E8rI ._2BUP9 ._1t2yA ._3CkDR{display:inline-block;font-size:1.71429rem;padding-left:8px}._2FQSs ._2E8rI ._2BUP9 ._31Jb4{display:inline-block;padding-left:8px;font-size:1.71429rem;color:#000;position:relative} ._2Cb-A{position:relative;z-index:10;background:#fff}._2Cb-A ._11IBr,._2Cb-A ._2EujU{text-align:center}._2Cb-A ._2EujU{font-size:3.42857rem;font-weight:700}._2Cb-A ._11IBr{font-size:2.57143rem;font-weight:300;margin-top:16px;color:#535665}._2Cb-A .TOXvz{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;-webkit-flex-wrap:wrap;flex-wrap:wrap;max-width:100%}._2Cb-A .TOXvz ._3jxeA{margin:3%;width:10%;position:relative}._2Cb-A .TOXvz ._3jxeA ._2O592{position:absolute;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);width:100%}._2Cb-A .TOXvz ._2Oddn{margin:8% 5%} ._2Zjde ._1GS76{display:-webkit-box;display:-webkit-flex;display:flex}._2Zjde ._1GS76 .YmzYL{-webkit-box-flex:0;-webkit-flex:0 0 5.71429rem;flex:0 0 5.71429rem}._2Zjde ._1GS76 .YmzYL ._2Ti6H{width:100%;max-width:5.71429rem}._2Zjde ._1GS76 .ETIJw{padding-left:30px;-webkit-box-flex:5;-webkit-flex:5;flex:5}._2Zjde ._1_rZA{display:block}._2Zjde ._1_rZA .YmzYL ._2Ti6H{width:5.71429rem}._2Zjde ._1_rZA .ETIJw{padding-top:20px} :root{--about-category-dweb-image-height:0px}._3EGB5{position:relative;display:block;background-color:#fef8fc;height:64.28571rem}._3EGB5 ._87J8i{color:#851951}._3EGB5 .JIJZl{overflow:visible}._3EGB5 .q0HF7,._3EGB5 ._3c-mj{height:100px;width:1000vw;position:absolute;left:-100vw;z-index:100}._3EGB5 ._3c-mj{background:-webkit-linear-gradient(top,#fff,rgba(255,255,255,0));background:linear-gradient(to bottom,#fff,rgba(255,255,255,0));top:0}._3EGB5 .q0HF7{background:-webkit-linear-gradient(bottom,#fff,rgba(255,255,255,0));background:linear-gradient(to top,#fff,rgba(255,255,255,0));bottom:0}._3EGB5 ._1k1jg{display:block;min-width:400px;height:100%}._3EGB5 ._1nzYL{display:-webkit-box;display:-webkit-flex;display:flex;height:100%}._3EGB5 ._1nzYL ._3Sa6t{-webkit-box-flex:1;-webkit-flex:1;flex:1;position:relative}._3EGB5 ._1nzYL ._3Sa6t ._18FKP{-webkit-transform-origin:top right;transform-origin:top right;position:absolute;right:-65%;-webkit-transform:rotate(20deg);transform:rotate(20deg);margin-top:-30%;top:0}@media only screen and (min-width:1536px){._3EGB5 ._1nzYL ._3Sa6t ._18FKP{right:-72%}}@-webkit-keyframes _2r-g-{0%{margin-top:0}100%{margin-top:calc(-1 * var(--about-category-dweb-image-height))}}@keyframes _2r-g-{0%{margin-top:0}100%{margin-top:calc(-1 * var(--about-category-dweb-image-height))}}._3EGB5 ._1nzYL ._3Sa6t ._18FKP ._3gc0y._1K--J{-webkit-animation:_2r-g- 24s linear 0s infinite;animation:_2r-g- 24s linear 0s infinite}._3EGB5 ._1nzYL ._3Sa6t ._18FKP ._3gc0y.WNWTu{-webkit-animation-play-state:paused;animation-play-state:paused}._3EGB5 ._1nzYL ._3Sa6t ._18FKP ._3gc0y{margin-top:0;-webkit-transition-property:margin-top;transition-property:margin-top;-webkit-transition-timing-function:linear;transition-timing-function:linear}._3EGB5 ._1nzYL ._3Sa6t ._18FKP ._3gc0y ._2B2EP{height:calc(2 * var(--about-category-dweb-image-height));background-repeat:repeat-y}._3EGB5 ._1nzYL ._1IKdk{-webkit-box-flex:1;-webkit-flex:1;flex:1}._3EGB5 ._1nzYL ._1IKdk ._1zWQL{font-size:3.42857rem;font-weight:700;margin:0}._3EGB5 ._1nzYL ._1IKdk ._2Gg3s ._3302-{margin:0;font-weight:500;font-size:2.14286rem}._3EGB5 ._1nzYL ._1IKdk ._2Gg3s ._25r7i{margin:8px 0;font-weight:100;font-size:1.71429rem;color:#535665} @-webkit-keyframes _1nIwL{0%{opacity:1}99%{opacity:0}100%{opacity:0;display:none}}@keyframes _1nIwL{0%{opacity:1}99%{opacity:0}100%{opacity:0;display:none}}._1t8hz{-webkit-animation:_1nIwL .2s linear forwards;animation:_1nIwL .2s linear forwards}._3Xdp4{height:100%;position:relative}@-webkit-keyframes _2Eext{0%{-webkit-transform:scale(1);transform:scale(1)}8%{-webkit-transform:scale(1.2);transform:scale(1.2)}82%{-webkit-transform:scale(1.2);transform:scale(1.2)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes _2Eext{0%{-webkit-transform:scale(1);transform:scale(1)}8%{-webkit-transform:scale(1.2);transform:scale(1.2)}82%{-webkit-transform:scale(1.2);transform:scale(1.2)}100%{-webkit-transform:scale(1);transform:scale(1)}}._3Xdp4 ._1Vm2l{height:100%}._3Xdp4 .CG1tU{-webkit-animation:_2Eext 2s ease-in-out .5s;animation:_2Eext 2s ease-in-out .5s}@-webkit-keyframes _2GTPc{0%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes _2GTPc{0%{opacity:0;-webkit-transform:scale(0);transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}._3Xdp4 ._3M9Ja{height:330px;left:30%;width:110%;z-index:1;position:absolute;top:5.5%;opacity:0;-webkit-animation:_2GTPc .25s linear 0s forwards;animation:_2GTPc .25s linear 0s forwards;-webkit-transform-origin:bottom;transform-origin:bottom}._3Xdp4 ._3M9Ja .v2VUM{height:100%}._3Xdp4 ._2SeRu{-webkit-animation:_1-YaH .5s ease-in-out .5s 4;animation:_1-YaH .5s ease-in-out .5s 4;-webkit-animation-direction:alternate;animation-direction:alternate}@-webkit-keyframes _1-YaH{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-8deg);transform:rotate(-8deg)}}@keyframes _1-YaH{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(-8deg);transform:rotate(-8deg)}}._3Xdp4 .pH0-K{opacity:0;-webkit-animation:_376Xu .25s linear 0s forwards;animation:_376Xu .25s linear 0s forwards}@-webkit-keyframes _376Xu{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:3.75%;-webkit-transform:rotate(-20deg);transform:rotate(-20deg);left:0;opacity:1}}@keyframes _376Xu{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:3.75%;-webkit-transform:rotate(-20deg);transform:rotate(-20deg);left:0;opacity:1}}._3Xdp4 ._ZmO-{opacity:0;-webkit-animation:_2FVvl .25s linear 0s forwards;animation:_2FVvl .25s linear 0s forwards}@-webkit-keyframes _2FVvl{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:-10%;-webkit-transform:rotate(-12deg);transform:rotate(-12deg);left:35%;opacity:1}}@keyframes _2FVvl{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:-10%;-webkit-transform:rotate(-12deg);transform:rotate(-12deg);left:35%;opacity:1}}._3Xdp4 ._1Seuc{opacity:0;-webkit-animation:oLDxy .25s linear 0s forwards;animation:oLDxy .25s linear 0s forwards}@-webkit-keyframes oLDxy{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:-10%;-webkit-transform:rotate(-4deg);transform:rotate(-4deg);left:70%;opacity:1}}@keyframes oLDxy{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:-10%;-webkit-transform:rotate(-4deg);transform:rotate(-4deg);left:70%;opacity:1}}._3Xdp4 ._2BXxb{opacity:0;-webkit-animation:_19DeU .25s linear 0s forwards;animation:_19DeU .25s linear 0s forwards}@-webkit-keyframes _19DeU{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:3.75%;-webkit-transform:rotate(10deg);transform:rotate(10deg);left:105%;opacity:1}}@keyframes _19DeU{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:3.75%;-webkit-transform:rotate(10deg);transform:rotate(10deg);left:105%;opacity:1}}._3Xdp4 ._2jLp_{opacity:0;-webkit-animation:_3BVwr .25s linear 0s forwards;animation:_3BVwr .25s linear 0s forwards}@-webkit-keyframes _3BVwr{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:58.75%;-webkit-transform:rotate(-18deg);transform:rotate(-18deg);left:17.5%;opacity:1}}@keyframes _3BVwr{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:58.75%;-webkit-transform:rotate(-18deg);transform:rotate(-18deg);left:17.5%;opacity:1}}._3Xdp4 ._1lNG3{opacity:0;-webkit-animation:_3G7Wf .25s linear 0s forwards;animation:_3G7Wf .25s linear 0s forwards}@-webkit-keyframes _3G7Wf{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:45%;-webkit-transform:rotate(-4deg);transform:rotate(-4deg);left:52.5%;opacity:1}}@keyframes _3G7Wf{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:45%;-webkit-transform:rotate(-4deg);transform:rotate(-4deg);left:52.5%;opacity:1}}._3Xdp4 .SNhuG{opacity:0;-webkit-animation:_1tvTD .25s linear 0s forwards;animation:_1tvTD .25s linear 0s forwards}@-webkit-keyframes _1tvTD{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:58.75%;-webkit-transform:rotate(21.7deg);transform:rotate(21.7deg);left:87.5%;opacity:1}}@keyframes _1tvTD{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:58.75%;-webkit-transform:rotate(21.7deg);transform:rotate(21.7deg);left:87.5%;opacity:1}}._3Xdp4 .gIe1N{opacity:0;-webkit-animation:H-vqH .25s linear 0s forwards;animation:H-vqH .25s linear 0s forwards}@-webkit-keyframes H-vqH{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:1}}@keyframes H-vqH{0%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:0}100%{top:100%;-webkit-transform:rotate(-8deg);transform:rotate(-8deg);left:52.5%;opacity:1}} ._2bevl::after{content:"";position:absolute;background:#fff;top:20%;bottom:20%;right:20%;left:20%;z-index:-1}._3M-fc{z-index:10;position:relative}._2bevl{color:#ff5422}._20QHv{color:#fff}._3Uoel{color:#851951}._1vf60{color:#fff}._2pPPl{position:relative;top:-1px}._2MUpY{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}._3YqAt{display:-webkit-box;display:-webkit-flex;display:flex}._2iNbB{padding-top:6px}._3qAPS{display:inline-block}._3qAPS *{cursor:pointer} ._3XVJs{position:relative}._3XVJs ._1d8hz{position:relative;-webkit-animation:_8HzcH .25s forwards;animation:_8HzcH .25s forwards}._3XVJs .Ouiqf{display:none!important}._3XVJs ._3gZ6j{position:absolute;-webkit-animation:_3bksM .25s both;animation:_3bksM .25s both}._3XVJs .btvDr{top:0;position:relative;opacity:1}@-webkit-keyframes _3bksM{0%{display:block;opacity:1;top:0}99%{display:block;opacity:0;top:-50px}100%{opacity:0;top:-50px;display:none}}@keyframes _3bksM{0%{display:block;opacity:1;top:0}99%{display:block;opacity:0;top:-50px}100%{opacity:0;top:-50px;display:none}}@-webkit-keyframes _8HzcH{0%{display:none;opacity:0;top:50px}100%{display:block;opacity:1;top:0}}@keyframes _8HzcH{0%{display:none;opacity:0;top:50px}100%{display:block;opacity:1;top:0}} .lxp5N{position:relative;top:-50px}.NyQRC{position:relative;z-index:10;background:#881952;height:calc(100vh - 100px - 50px);min-height:680px;max-height:900px}.NyQRC ._24hGc{position:-webkit-sticky;position:sticky;top:-1px;height:1px;width:1px;opacity:0}.NyQRC ._2mJn4{position:absolute;width:100%;left:0;bottom:0;z-index:0}.NyQRC ._2xRhq{display:-webkit-box;display:-webkit-flex;display:flex;height:100%}.NyQRC ._2xRhq ._3ZF5M{-webkit-box-flex:7;-webkit-flex:7;flex:7}.NyQRC ._2xRhq ._3ZF5M ._2RsPi ._3jwgf{font-size:3.42857rem;font-weight:700;margin-bottom:6px;color:#fff}.NyQRC ._2xRhq ._3ZF5M ._2RsPi ._2DsTp{font-size:3.42857rem;font-weight:700;margin:0;color:#fff;margin-bottom:6px}.NyQRC ._2xRhq ._3ZF5M ._2RsPi ._3rd6W{padding-top:1rem;font-size:1.71429rem;margin:0;color:#ffffff99}.NyQRC ._2xRhq ._3ZF5M ._3sM1k{width:70%}.NyQRC ._2xRhq ._3ZF5M ._3sM1k .rdlZZ{color:#fff;display:inline-block;font-size:1.28571rem;padding-left:8px;font-weight:300}.NyQRC ._2xRhq ._3ZF5M .lLGhn{background-color:#ff5422;color:#fff;border-radius:12px;padding:22px 24px;font-size:2rem;font-weight:500}@-webkit-keyframes Pem2M{from{top:800px}to{top:20px}}@keyframes Pem2M{from{top:800px}to{top:20px}}.NyQRC ._2xRhq .x58an{-webkit-box-flex:6;-webkit-flex:6;flex:6;position:relative;top:800px;-webkit-animation:Pem2M 1s ease-in 1s forwards;animation:Pem2M 1s ease-in 1s forwards}.NyQRC ._2xRhq .x58an ._1xm-N{position:relative}@-webkit-keyframes Yh5wc{0%{right:40px;top:189px;-webkit-transform:scale(1);transform:scale(1)}100%{right:40px;top:191px;-webkit-transform:scale(1.4);transform:scale(1.4)}}@keyframes Yh5wc{0%{right:40px;top:189px;-webkit-transform:scale(1);transform:scale(1)}100%{right:40px;top:191px;-webkit-transform:scale(1.4);transform:scale(1.4)}}.NyQRC ._2xRhq .x58an ._1xm-N ._2flVt{position:absolute;width:146px;z-index:100;right:40px;top:189px;-webkit-transform-origin:bottom left;transform-origin:bottom left;-webkit-animation:Yh5wc .25s ease-in 2.5s forwards;animation:Yh5wc .25s ease-in 2.5s forwards}.NyQRC ._2xRhq .x58an ._1xm-N ._1v6AC{width:380px;z-index:1;position:relative;top:90px}.NyQRC ._2xRhq .x58an ._1SKrD{position:absolute;left:0;bottom:0}.NyQRC ._2xRhq .x58an ._1SKrD ._3pBbS{z-index:100;position:relative;height:300px}.NyQRC ._2xRhq .x58an ._1SKrD ._3qAxR{position:absolute;z-index:100;height:148px}.NyQRC ._2xRhq .x58an ._1SKrD ._3qAxR ._3jwwD{-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;transition-property:transform;transition-property:transform, -webkit-transform;height:100%} ._1l2yV.psb3-,._1l2yV._1kmv5{background-color:#fff;position:absolute;left:0;padding:16px 0;-webkit-animation-timing-function:linear;animation-timing-function:linear;box-shadow:0 15px 40px -20px rgba(40,44,63,.15);width:100vw}.Zs15V{position:-webkit-sticky;position:sticky;top:0;z-index:1000;height:0}._1l2yV._1kmv5{top:-100px;-webkit-animation:_1PLyD .5s forwards;animation:_1PLyD .5s forwards}._1l2yV.psb3-{top:0;-webkit-animation:_1ALCJ .5s forwards;animation:_1ALCJ .5s forwards}@-webkit-keyframes _1ALCJ{0%{opacity:1;top:0}99%{top:-100px}100%{opacity:0;top:-100px;display:none}}@keyframes _1ALCJ{0%{opacity:1;top:0}99%{top:-100px}100%{opacity:0;top:-100px;display:none}}@-webkit-keyframes _1PLyD{0%{top:-100px}100%{top:0}}@keyframes _1PLyD{0%{top:-100px}100%{top:0}}._1l2yV{padding:36px 0 16px;z-index:1001;position:relative;background:#881952}._1l2yV ._1r47u{display:inline-block}._1l2yV ._1r47u ._1SxMN{height:48px}._1l2yV ._1r47u ._1wfBN{display:inline-block;padding-left:8px}._1l2yV ._1r47u ._1wfBN .EJNwO{display:block;margin:0;font-size:1.71429rem}._1l2yV ._1r47u ._1wfBN ._3QSf_{font-size:2.28571rem;margin:0;border-radius:0;color:#851951}._1l2yV ._1J-xd.psb3-,._1l2yV ._1J-xd._1kmv5{position:relative}._1l2yV ._1J-xd{float:right}._1l2yV ._1J-xd ._2rPvF.psb3-,._1l2yV ._1J-xd ._2rPvF._1kmv5{margin-right:24px}._1l2yV ._1J-xd ._2rPvF{cursor:default;position:relative;background-color:transparent;height:50px;display:inline-block;padding:0 24px;font-size:14px;border-radius:4px;font-weight:500;background-size:100% 100%}._1l2yV ._1J-xd ._2rPvF._1kmv5::before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;background-color:rgba(255,255,255,.5)}._1l2yV ._1J-xd ._2ib8M{height:50px;border:1px solid #851951;color:#851951;position:relative;display:inline-block;padding:0 16px;font-size:18px;font-weight:700;background:#fff}._1l2yV ._1J-xd ._2ib8M{border-radius:8px}._1l2yV ._1J-xd .K5yo0{position:absolute}._1l2yV ._1J-xd ._20poB{z-index:10;padding-left:36px;font-size:14px;color:#fff}._1l2yV ._1J-xd ._20poB.psb3-,._1l2yV ._1J-xd ._20poB._1kmv5{color:#ff5422}@-webkit-keyframes _3knXD{0%{display:none;-webkit-transform:scale(0);transform:scale(0);opacity:0}100%{display:inline-block;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes _3knXD{0%{display:none;-webkit-transform:scale(0);transform:scale(0);opacity:0}100%{display:inline-block;-webkit-transform:scale(1);transform:scale(1);opacity:1}} ._3vp0C{padding:0;overflow:scroll;margin:0 auto;width:100%;-ms-overflow-style:none;scrollbar-width:none}._3vp0C::-webkit-scrollbar{display:none}._2mi3w{display:-webkit-box;display:-webkit-flex;display:flex;justify-items:center;overflow:hidden;min-width:1200px}.H6G4Y{position:relative;padding:0 60px;height:100%;width:100%;margin:0 auto;overflow:hidden;width:100%;min-width:1200px;max-width:1536px}._2V5SG{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center}._2V5SG ._1nzKn{-webkit-box-flex:1;-webkit-flex:1;flex:1} html{font-size:13px}@media only screen and (max-width:1200px){html{font-size:12px}}@media only screen and (min-width:1536px){html{font-size:15px}}*{cursor:auto}h1,h2,h3,h4,h5,h6,p{cursor:text;-webkit-user-select:text!important;-ms-user-select:text!important;user-select:text!important}a,button{cursor:pointer}b{font-weight:600} ._12s3o{height:100%} @charset "UTF-8";.icon-location-marker:before{content:"\E918"}.icon-search:before{content:"\E909"}.icon-back:before{content:"\E903"}.icon-forward:before{content:"\E95A"}.icon-down-chevron:before{content:"\E90E"}.icon-home:before{content:"\E914"}.icon-tick-sharp:before{content:"\E928"}.icon-close:before{content:"\E907"}.icon-verified:before{content:"\E91F"}.icon-camera:before{content:"\E906"}.icon-offer:before{content:"\E90D"}.icon-offer-filled:before{content:"\E90C"}.icon-map:before{content:"\E919"}.icon-list:before{content:"\E915"}.icon-note:before{content:"\E92B"}.icon-square-dots:before{content:"\E92C"}.icon-sniper:before{content:"\E92E"}.icon-cart-inverse:before{content:"\E92D"}.icon-add:before{content:"\E901"}.icon-help:before{content:"\E913"}.icon-custom-list-plus:before{content:"\E930"}.icon-custom-list:before{content:"\E931"}.icon-tick:before{content:"\E928"}.icon-work:before{content:"\E932"}.icon-shop:before{content:"\E92F"}.icon-indicator:before{content:"\E933"}.icon-home-new:before{content:"\E934"}.icon-work-new:before{content:"\E937"}.icon-store-new:before{content:"\E936"}.icon-other-new:before{content:"\E935"}.icon-contact-book:before{content:"\E938"}.icon-history:before{content:"\E939"}.icon-task-business:before{content:"\E93A"}.icon-task-courier:before{content:"\E93B"}.icon-task-documents:before{content:"\E945"}.icon-task-electronics:before{content:"\E944"}.icon-task-food:before{content:"\E93C"}.icon-task-forgot:before{content:"\E93D"}.icon-task-laundry:before{content:"\E93E"}.icon-task-medical:before{content:"\E946"}.icon-task-other:before{content:"\E93F"}.icon-task-repair:before{content:"\E940"}.icon-oa-store:before{content:"\E941"}.icon-bill:before{content:"\E942"}.icon-info:before{content:"\E943"}.icon-apple-store:before{content:"\E947"}.icon-google-play:before{content:"\E948"}.icon-mute:before{content:"\E956"}.icon-unmute:before{content:"\E957"}.icon-solid-close-button:before{content:"\E958"}.icon-solid-play-button:before{content:"\E959"}.icon-discounts-filled-bold:before{content:"\E960"}.icon-radio-tick:before{content:"\E949"}.icon-triple-dots:before{content:"\E961"}.icon-popular-searches:before{content:"\E94B"}.icon-trending-searches:before{content:"\E94A"}.icon-video-controller-play:before{content:"\E94F"}.icon-video-controller-pause:before{content:"\E94E"}.icon-video-play:before{content:"\E951"}.icon-video-pause:before{content:"\E94E"}.icon-video-controller-mute:before{content:"\E94D"}.icon-video-controller-unmute:before{content:"\E953"}.icon-pause:before{content:"\E94C"}.icon-play:before{content:"\E955"}.icon-mute-filled:before{content:"\EA2A"}.icon-volume-filled:before{content:"\EA27"}.icon-check-circle:before{content:"\E967"}.icon-chevron-right:before{content:"\E968"}.icon-line-arrow-down:before{content:"\E95B"}.icon-line-arrow-down:before{content:"\E95B"}.icon-home-v2:before{content:"\E964"}.icon-work-v2:before{content:"\E965"}.icon-friends-and-family:before{content:"\E962"}.icon-generic-location-outline:before{content:"\E95E"}.icon-generic-location-filled:before{content:"\E963"}.icon-recent-search-location:before{content:"\E95C"}.icon-sniper-v2:before{content:"\E95F"}.icon-swap:before{content:"\E95D"}.icon-check-circle:before{content:"\E967"}.icon-chevron-right:before{content:"\E968"}.icon-close-button-v2:before{content:"\E966"}.icon-share:before{content:"\E969"} body,html{margin:0;padding:0;height:100%;background:#fff;-webkit-overflow-scrolling:touch}body::-webkit-scrollbar,html::-webkit-scrollbar{display:none}body{position:fixed;top:0;left:0;right:0;bottom:0;overflow:hidden}html{font-family:Arial,"Helvetica Neue",sans-serif;font-size:14px;font-weight:300;line-height:1.2;color:#282c3f;letter-spacing:-.5px;-webkit-animation:_3SY-a .2s ease-out;animation:_3SY-a .2s ease-out}@media (max-width:320px){html{font-size:13px}}*{cursor:pointer;margin:0;padding:0;box-sizing:border-box;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent;-ms-text-size-adjust:none}:not(input):not(textarea):not(button){-webkit-touch-callout:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}@font-face{font-family:ProximaNovaCnBold;font-weight:400;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_BOLD.a2521a.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_BOLD.742fc6.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_BOLD.1dc004.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:700;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/700.b357ad.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/700.56f328.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/700.e2a5b3.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:600;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/600.bae1b5.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/600.3ebf49.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/600.cf0c18.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:500;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/500.3af6fd.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/500.812cea.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/500.86c31e.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:400;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/400.6c07a7.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/400.fada48.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/400.4ac89f.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:300;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/300.ba01ac.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/300.33e13d.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/300.c91348.ttf) format("truetype")}@font-face{font-family:ProximaNova;font-weight:200;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/200.e268be.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/200.89cca7.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/200.05250f.ttf) format("truetype")}@font-face{font-family:icomoon;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/icomoon.af7073.ttf) format("truetype"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/icomoon.bf2b23.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/icomoon.52275f.svg#icomoon) format("svg");font-weight:400;font-style:normal}@font-face{font-family:ProximaNovaCn;font-weight:300;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_REGULAR.bbf1ce.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_REGULAR.a45688.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/PN_COND_REGULAR.7d72c0.ttf) format("truetype")}@font-face{font-family:Agrandir-BoldItalic;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-BoldItalic.7d93ed.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-BoldItalic.dbbfb5.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-BoldItalic.822a36.ttf) format("truetype")}@font-face{font-family:Agrandir-MediumItalic;src:url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-MediumItalic.138d5d.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-MediumItalic.a62373.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/fonts/Agrandir-MediumItalic.278ab1.ttf) format("truetype")}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BlackIt.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BlackIt.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BlackIt.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BlackIt.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BlackIt.ttf) format("truetype");font-weight:800;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BoldIt.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BoldIt.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BoldIt.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BoldIt.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-BoldIt.ttf) format("truetype");font-weight:700;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.ttf) format("truetype");font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.ttf) format("truetype");font-weight:200;font-style:normal;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-LightIt.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-LightIt.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-LightIt.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-LightIt.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-LightIt.ttf) format("truetype");font-weight:200;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:"Basis Grotesque Pro OffWhite";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhiteIt.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhiteIt.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhiteIt.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhiteIt.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhiteIt.ttf) format("truetype");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-MediumIt.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-MediumIt.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-MediumIt.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-MediumIt.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-MediumIt.ttf) format("truetype");font-weight:600;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro OffWhite";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-OffWhite.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Regular.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-It.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-It.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-It.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-It.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-It.ttf) format("truetype");font-weight:400;font-style:italic;font-display:swap}@font-face{font-family:"Basis Grotesque Pro";font-weight:900;font-display:block;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Black.ttf) format("truetype")}@font-face{font-family:"Basis Grotesque Pro";font-weight:500;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.ttf) format("truetype")}@font-face{font-family:"Basis Grotesque Pro";font-weight:300;font-display:swap;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Light.ttf) format("truetype")}@font-face{font-family:"Basis Grotesque Pro";src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/BasisGrotesquePro-Medium.ttf) format("truetype");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:ProximaNovaCond-Bold;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Bold.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Bold.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Bold.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Bold.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Bold.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:ProximaNovaCond-Black;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Black.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Black.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Black.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Black.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Black.ttf) format("truetype");font-weight:800;font-style:normal;font-display:swap}@font-face{font-family:ProximaNovaCond-Medium;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Medium.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Medium.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Medium.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Medium.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Medium.ttf) format("truetype");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:ProximaNovaCond-Extrabld;src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Extrabld.eot);src:url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Extrabld.eot?#iefix) format("embedded-opentype"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Extrabld.woff2) format("woff2"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Extrabld.woff) format("woff"),url(https://res.cloudinary.com/swiggy/raw/upload/FontAssets/ProximaNovaCond-Extrabld.ttf) format("truetype");font-weight:700;font-style:normal;font-display:swap}[class*=" icon-"],[class^=icon-]{font-family:icomoon!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fonts-loaded{font-family:ProximaNova,Arial,Helvetica Neue,sans-serif;letter-spacing:-.1px}.fonts-loaded-ux4{font-family:Basis Grotesque Pro,Arial,Helvetica Neue,sans-serif;letter-spacing:-.1px}ol,ul{margin:0;padding:0;list-style-type:none}input{line-height:normal}button,input,label,optgroup,select,textarea{color:inherit;font:inherit;margin:0;outline:0;border:0}label{padding:0}input:disabled,input:focus,input:hover,textarea:disabled{background:inherit}a{text-decoration:none;color:inherit}::-webkit-input-placeholder{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#93959f;font-size:inherit;font-family:inherit}:-ms-input-placeholder{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#93959f;font-size:inherit;font-family:inherit}::-ms-input-placeholder{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#93959f;font-size:inherit;font-family:inherit}::placeholder{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#93959f;font-size:inherit;font-family:inherit}::-webkit-input-placeholder{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#93959f;font-size:inherit;font-family:inherit}::-ms-placeholder{color:#7e808c;font-size:inherit;font-family:inherit}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{display:none}input[type=search],input[type=submit],input[type=text],textarea{-webkit-appearance:none;border-radius:0}.gm-style{font-family:ProximaNova,Arial,Helvetica Neue,sans-serif!important}.rupee:before{content:"\20B9"}@-webkit-keyframes _3SY-a{from{opacity:0}to{opacity:1}}@keyframes _3SY-a{from{opacity:0}to{opacity:1}}</style><div class="pnwyq _12s3o"><main class="_3vp0C"><div class="Zs15V"><section id="dwebHeader" data-testid="header-sticky" class="_1l2yV psb3- _2mi3w"><div class="H6G4Y"><div class="_1r47u"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_150/InstamartMicrosite/Instamartlogo" class="_1SxMN"/></div><div class="_1J-xd psb3-"><button class="_2ib8M _1kmv5">Try Instamart on Swiggy app</button></div></div></section></div><section id="dwebHeader" data-testid="header-nonsticky" class="_1l2yV _2mi3w"><div class="H6G4Y"><div class="_1r47u"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_150/InstamartMicrosite/InstamartlogoWhite" class="_1SxMN"/></div><div class="_1J-xd"></div></div></section><section class="NyQRC _2mi3w"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_400/InstamartMicrosite/BGBottom" class="_2mJn4"/><div class="H6G4Y"><div class="_2xRhq"><div class="_3ZF5M _2V5SG"><div class="_1nzKn lxp5N"><div class="_2RsPi"><div class="_3XVJs"><div data-testid="TextCauroselContainer0" class="btvDr"><div><p class="_3jwgf">Daily essentials</p></div></div><div data-testid="TextCauroselContainer1" class="_3gZ6j Ouiqf"><div><p class="_3jwgf">Fresh fruits &amp; veggies</p></div></div><div data-testid="TextCauroselContainer2" class="_3gZ6j Ouiqf"><div><p class="_3jwgf">Dairy, bread &amp; eggs</p></div></div><div data-testid="TextCauroselContainer3" class="_3gZ6j Ouiqf"><div><p class="_3jwgf">Snacks &amp; indulgences</p></div></div><div data-testid="TextCauroselContainer4" class="_3gZ6j Ouiqf"><div><p class="_3jwgf">Emergency supplies</p></div></div></div><div><h1 class="_2DsTp">delivered in minutes,</h1><h1 class="_2DsTp"> from the house of Swiggy.</h1><p class="_3rd6W">Open 6 AM to late night everyday</p></div><div style="padding-top:2.142857142857143rem;opacity:1"></div><div><div style="padding-top:0.0064285714285714285rem;opacity:0"></div></div><div><button id="introductionCtaButton" class="lLGhn">Try Instamart on Swiggy app</button></div></div><div style="padding-top:2.7857142857142856rem;opacity:1"></div><div class="_3YqAt _3sM1k"><span class="_2iNbB" style="font-size:20px"> <!-- -->❤️</span><p class="rdlZZ">Trusted by millions of shoppers in Bangalore, Delhi-NCR, Hyderabad, Mumbai, Chennai, Pune &amp; other cities</p></div><div style="padding-top:1.6071428571428572rem;opacity:1"></div></div></div><div class="x58an"><div class="_1SKrD"><div class="_3pBbS"></div><div class="_1xm-N"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300/InstamartMicrosite/InstamartEntrypoint" class="_2flVt"/><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_760/InstamartMicrosite/MobileFrame" class="_1v6AC"/></div></div></div></div></div></section><section class="_3EGB5 _2mi3w"><div class="H6G4Y JIJZl"><div class="_3c-mj"></div><div class="_1nzYL"><div class="_1IKdk _2V5SG"><div class="_1nzKn"><h1 class="_1zWQL"><span class="_87J8i">Convenience</span> grocery, powered by Swiggy</h1><div style="padding-top:6.428571428571429rem;opacity:1"></div><div><div style="padding-top:0.0064285714285714285rem;opacity:0"></div></div><div class="_2Gg3s _2Zjde"><div class="_1GS76"><div class="YmzYL"><div style="display:inline"><img class="_2Ti6H"/></div></div><div class="ETIJw"><h5 class="_25r7i"><b>Groceries delivered in minutes,<!-- --> </b>just as fast as we deliver food!</h5></div></div><div style="padding-top:4.285714285714286rem;opacity:1"></div></div><div class="_2Gg3s _2Zjde"><div class="_1GS76"><div class="YmzYL"><div style="display:inline"><img class="_2Ti6H"/></div></div><div class="ETIJw"><h5 class="_25r7i"><b>Open 6 AM to late night everyday,<!-- --> </b>from your morning coffee needs to snacks for your late night binge.</h5></div></div></div><div><div style="padding-top:0.06428571428571428rem;opacity:0"></div></div></div></div><div class="q0HF7"></div><div class="_3Sa6t"><aside class="_18FKP"><div class="_3gc0y _1K--J WNWTu"><div style="background-image:url(&quot;https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1200/InstamartMicrosite/Categories&quot;);width:600px;background-size:600px" class="_2B2EP"></div></div></aside></div></div></div></section><section class="_2FQSs _2mi3w"><div style="display:inline"><img class="_3E_Qs"/></div><div class="H6G4Y _3QPwG"><div class="_2E8rI"><div class="IHTRc"><div style="display:inline"><img class="a7w1y"/></div></div><div class="_2BUP9"><div style="display:inline-block"><h1 class="_2YPL1">Download Swiggy &amp;</h1><h1 class="_2YPL1">order now on Instamart!</h1><div style="padding-top:1.5rem;opacity:1"></div><div class="_2QIHQ _2MUpY"></div><div style="padding-top:1.5rem;opacity:1"></div><div class="_3YqAt _1t2yA"><span class="_2iNbB" style="font-size:28px"> <!-- -->❤️</span><p class="_3CkDR">Trusted by millions of shoppers in Bangalore, Delhi-NCR, Hyderabad, Mumbai, Chennai, Pune &amp; other cities</p></div><div style="padding-top:2.5714285714285716rem;opacity:1"></div><div><div><div style="padding-top:0.0064285714285714285rem;opacity:0"></div></div><a data-testid="a-IOSClick-link" href="https://apps.apple.com/in/app/swiggy-food-order-delivery/id989540920?utm_source=instamart&amp;utm_medium=weblanding&amp;utm_campaign=ios" rel="noreferrer" target="_blank"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_100/InstamartMicrosite/DownloadAppStore" class="_2DcQh"/></a><a data-testid="a-AndroidClick-link" href="https://play.google.com/store/apps/details?id=in.swiggy.android&amp;referrer=utm_source%3Dinstamart%26utm_medium%3Dweblanding%26anid%3Dadmob" rel="noreferrer" target="_blank"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_100/InstamartMicrosite/GooglePlayStore" class="vrRbf"/></a></div></div></div></div></div></section><section class="_3IqZh _2mi3w"><div class="H6G4Y"><footer><div class="eR87u"><div class="_3VmBf"><a class="_3qAPS" href="https://www.swiggy.com" rel="noreferrer" target="_blank"><div style="display:inline"><img class="" style="height:3rem"/></div></a></div><div class="_3yilN"><p>© 2021 Swiggy</p></div><div class="_66Yrl"><a class="_3qAPS" href="https://www.facebook.com/swiggy.in" rel="noreferrer" target="_blank"><div style="display:inline"><img class="_3LgaU" style="height:1.7142857142857142rem"/></div></a><a class="_3qAPS" href="https://pinterest.com/swiggyindia" rel="noreferrer" target="_blank"><div style="display:inline"><img class="_3LgaU" style="height:1.7142857142857142rem"/></div></a><a class="_3qAPS" href="https://instagram.com/swiggyindia/" rel="noreferrer" target="_blank"><div style="display:inline"><img class="_3LgaU" style="height:1.7142857142857142rem"/></div></a><a class="_3qAPS" href="https://twitter.com/swiggy_in" rel="noreferrer" target="_blank"><div style="display:inline"><img class="_3LgaU" style="height:1.7142857142857142rem"/></div></a></div></div></footer></div></section></main></div></div><div id="errorDiv" style="display: none; height: 100%; position: fixed; top: 0;left: 0;right: 0;bottom: 0;"><style>.errorContainer {
-            padding-top: 0px;
-            font-family: ProximaNova, Roboto, Helvetica, Arial, sans-serif;
-            height: 100%;
-            width: 100%;
-            z-index: 1047899;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .header {
-            display: flex;
-            height: 64px;
-            width: 100%;
-            align-items: center;
-            padding: 0 16px;
-        }
-
-        .headerBody {
-            margin: 0 16px;
-            overflow: hidden;
-            font-weight: 600;
-            margin-top: 2px;
-            color: #282c3f;
-        }
-
-        .content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex: 1;
-        }
-
-        .messageContainer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            width: 100%;
-        }
-
-        .img {
-            background-position: center top;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-color: transparent;
-            height: calc(100vw * .6);
-            width: 100%;
-            background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/dash_oops_error?_cacheAsset=1");
-        }
-
-        .message {
-            margin-top: 24px;
-        }
-
-        .messageTitle {
-            margin: 0 auto;
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: #535665;
-            text-align: center;
-            width: 290px;
-        }
-
-        .messageBody {
-            margin: 8px auto 0;
-            font-size: 0.93rem;
-            color: #a9abb2;
-            width: 300px;
-            text-align: center;
-            white-space: pre-wrap;
-        }
-
-        .action {
-            display: inline-flex;
-            padding: 0 24px;
-            border-radius: 3px;
-            color: #e46d47;
-            border: 1px solid #e46d47;
-            height: 44px;
-            width: auto;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 24px;
-            font-size: 14px;
-            text-decoration: none;
-        }</style><div class="errorContainer"><div class="header"><svg width="24px" height="24px" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onclick="handleExit()"><g id="Back/grey-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Group" transform="translate(3.000000, 6.000000)" fill="#282C3F" fill-rule="nonzero"><path d="M2.60660875,6.65 L6.48591423,10.5408315 C6.7393782,10.7950486 6.7387677,11.2066053 6.48455065,11.4600693 C6.2303336,11.7135333 5.81877682,11.7129228 5.56531285,11.4587057 L0.558746832,6.43726442 C0.305037647,6.18280143 0.305930696,5.77076007 0.560740527,5.51739923 L5.56730654,0.539303292 C5.82187009,0.286187329 6.23342566,0.287360831 6.48654162,0.541924382 C6.73965758,0.796487934 6.73848408,1.2080435 6.48392053,1.46115946 L2.57283944,5.35 L16.883868,5.35 C17.2428531,5.35 17.533868,5.64101491 17.533868,6 C17.533868,6.35898509 17.2428531,6.65 16.883868,6.65 L2.60660875,6.65 Z" id="Combined-Shape"></path></g></g></svg><div class="headerBody">Swiggy Stores</div></div><div class="content"><div class="messageContainer"><div class="img"></div><div class="message"><div class="messageTitle">Oops</div><div class="messageBody">Something's not right. Our best minds are on it. You may retry or check back soon.</div></div><a class="action" href="/?disableCache=1">RETRY</a></div></div></div></div><script type="text/javascript">function _getRequestString(type, payload={}) {
-        return JSON.stringify({
-                requestId: String(Math.random()),
-                type: type,
-                payload: payload
-        });
-    }
-
-    var WebBridgeSdk = window.WebBridgeSdk || {
-        nativeRequest: function nativeRequest(payload) {
-            if (window.AndroidBridge && window.AndroidBridge.nativeRequest) {
-                window
-                    .AndroidBridge
-                    .nativeRequest(payload);
-                return true;
-            } else if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.nativeRequest) {
-                window
-                    .webkit
-                    .messageHandlers
-                    .nativeRequest
-                    .postMessage({message: payload});
-                return true;
-            }
-            return false;
-        },
-        toggleNativeBar: function toggleNativeBar(show) {
-            var reqString = _getRequestString("TOGGLE_NATIVE_BOTTOM_BAR", { show: show });
-            return WebBridgeSdk.nativeRequest(reqString);
-        },
-        exit: function exit() {
-            var reqString = _getRequestString("CLOSE_WEBVIEW");
-            return WebBridgeSdk.nativeRequest(reqString);
-        }
-    }</script><script>function handleExit(){WebBridgeSdk.exit()||(window.location.href="/")}window.handleHardwareBack=handleExit</script> <script type="text/javascript">function loadJS(n,e){var a,o=document.createElement("script");o.src=n,o.async=!0,o.crossorigin="anonymous",e&&(o.onreadystatechange=o.onload=function(){a||e(window),a=!0}),document.getElementsByTagName("head")[0].appendChild(o)}window.keyboardStateChanged=function(n,e){}</script><script type="text/javascript">window.GOOGLE_MAPS_API_KEY = "AIzaSyAIOreCdrMc_gFY5V8laq8X--vvZPm9-uw";</script><script type="text/javascript">"undefined"!=typeof window&&(window.captureError=function(n){var o=document.getElementById("errorDiv");o&&(o.style.display="block",o.style.zIndex=2,o.style.background="#ffffff"),"string"!=typeof n||"function"!=typeof window.onerror?void 0!==window.Sentry&&window.Sentry.captureException(n):window.onerror.apply(window,arguments)})</script><script type="text/javascript">var exports={};Object.defineProperty(exports,"__esModule",{value:!0});var isPWA=function(){var t;return"undefined"!=typeof window&&(!window.App||"web"===window.App.platform)&&(null===(t=window.matchMedia("(display-mode: standalone)"))||void 0===t?void 0:t.matches)};function isEmpty(t,e){switch(void 0===e&&(e=!0),typeof t){case"string":return e?0===t.length:0===t.trim().length;case"number":case"boolean":return!t;case"undefined":return!0;case"object":return null===t||0===Object.keys(t).length;case"function":case"symbol":return!1;default:return!t}}var ATTRIBUTION_KEYS=["entryId","entryName","entryContext","hpos","vpos"],shouldCallIMHomeApi=function(){var t=window.location.pathname;return"/instamart"===t||"/instamart/"===t},getAttributionParams=function(){var n=new URLSearchParams(window.location.search);return ATTRIBUTION_KEYS.reduce(function(t,e){return e&&(t[e]=n.get(e)||""),t},{})},loadData=function(){var t;if("undefined"!=typeof window&&shouldCallIMHomeApi()){var e={data:{},success:!1,error:!1,supported:!0,fetchError:!1};if(window.ApiData={instamartHomeApiData:e},"function"!=typeof CustomEvent||"undefined"==typeof fetch||isPWA()&&isEmpty(null===(t=window.App)||void 0===t?void 0:t.userLocation))e.supported=!1;else{var n=new CustomEvent("HOME_API_ERROR"),r=new CustomEvent("HOME_API_FETCHED"),o=new CustomEvent("FETCH_API_ERROR");try{fetch("/api/instamart/home?clientId=INSTAMART-APP",{credentials:"same-origin",headers:getAttributionParams()}).then(function(t){return t.json()}).then(function(t){if(0!==(e.data=t).statusCode)return e.error=!0,document.dispatchEvent(n);e.success=!0,document.dispatchEvent(r)}).catch(function(){return e.error=!0,document.dispatchEvent(n)})}catch(t){window.captureError&&window.captureError(JSON.stringify(t)),e.fetchError=!0,document.dispatchEvent(o)}}}};loadData()</script><script type="text/javascript">  window.___INITIAL_STATE___ = {"misc":{"abExperiments":{},"options":{"dfInstamartNuxSkipDelayInSeconds":"5","dfInstamartAutoScrollDelayInSeconds":"1","dfInstamartTrackAutoScrollDelayInSeconds":"2","dfFirebasePerfEnabled":"1","dfMaxAllowedQuantity":"15","dfMaxAndroidVersionForGenieVideoOB":"834","dfMaxAndroidVersionForOAPayment":"809","dfMaxIOSVersionForGenieVideoOB":"333","dfRequestTimeout":"20000","dfShowAttachmentUpload":"1","dfShowGenieVideoOnboarding":"1","dfShowGoogleUpload":"0","dfStoresImageRightAlignedItemEnabled":"1","dfStoresSearchConfigData":"{\"initialDisplayItemsInStore\":4,\"minimumQueryLength\":3,\"searchDebounceDelay\":200,\"itemLayout\":\"horizontal\"}","swEnabled":"1","dfGoPudoDistanceDialogShowCount":"1","dfGoPudoDistanceLimit":"300","dfOAShowSuggestions":"0","dfOASelectStoreTncConfig":"{\"enabled\":\"1\",\"showCountPerUser\":2}","dfOAItemTncConfig":"{\"enabled\":\"0\",\"showCountPerUser\":2}","dfPudoTncConfig":"{\"enabled\":\"0\",\"showCountPerUser\":2}","dfAlcoholMinAndroidAppVersion":"835","dfAlcoholMinIOSAppVersion":"333","dfTelSupportEnabledVersionIOS":"335","dfAndroidVersionWithCallouts":"853","dfOASearchStoreDebounceTimeout":"600","dfInstamartOnboardingShowCount":"0","dfInstamartEnabledIOSVersion":"343","dfInstamartEnabledAndroidVersion":"880","dfIOSVersionForG2BNativeEvents":"356","dfAndroidVersionForG2BNativeEvents":"917","dfG2BCustomerOnboarding":"2","dfMaxOTPAttempt":"5","dfAndroidVideoVoiceOverSupportedVersion":"922","dfAndroidVersionWhtsappBridge":"935","dfInstamartAddCartInfoWidgetLimit":"-1","dfInstamartCartBackendCallTimeout":"3000","dfInstamartTrackV2Enabled":"1","dfInstamartTrackV2MwebEnabled":"1","dfInstamartTrackV2AndroidEnabledVersion":"998","dfInstamartTrackV2IOSEnabledVersion":"399","dfInstamartTrackV2PLCardsEnabled":"1","dfPudoCancellationPolicyLimit":"0","dfInstamartSuperNotificationMaxPlays":"15","dfInstamartTrackBannerAutoSwipeLimit":"3","dfMinIMNativeCartSynchEnabledAndroidVersion":"1017","dfMinIMNativeCartSynchEnabledIOSVersion":"407","dfIMTrackMaxRetries":"5","dfAnalyticsEventsMaxRetries":"3","dfKycStepTextAndroidVersion":"1023","dfKycStepTextIosVersion":"410","dfHoliThemeEnabledV2":"0","dfMinPermissionBridgeEnabledAndroidVersion":"1045","dfNativeBarEnabled":"1","dfInstamartSearchDebounceTime":"300","dfAndroidNewPostOrderEventEnabledVersion":"1045","dfIOSNewPostOrderEventEnabledVersion":"422","dfAcceptBuildCartCallFromApp":"1","dfShouldCloseWebView":"1","dfAdEventsBatchSize":"1","dfAdEventsDispatchIntervalInMinutes":"0.0835","dfInstamartUxV4EnabledIOSVersion":"431","dfIMBlockPushEnabled":"1","dfIMBlockPushIosMinVersion":"430","dfIMBlockPushExperimentalFlag":"1","dfRecordSwiggyliticsEventsEnabled":"true","dfIMUX4OnboardingBannerCount":"0","dfIsCartMigrationEnabled":"true","dfInstamartHomePageSize":"4","dfInstamartTimelinePollingInterval":"5000","dfShowCategoryFabButton":"1","dfIMCouponlessOffersNotificationEnabled":"1","dfShouldTrackNoRushDelTypeClick":"0","dfGeniePaymentCommLimit":"3","dfSearchPageBannerAspectRatio":"0.66","dfIMNoRushNudgeCount":"1","dfAllowIMforceUpdate":"0","dfIosCacheFixVersionCode":"450","dfPaanCornerRetryCount":"36","dfMinIosLocationEnabledVersion":"1500","dfMinAndroidLocationEnabledVersion":"1112","dfTnsEnabled":"\"1\"","dfAndroidTNSBridgeEnabledVersion":"1112","dfIosTNSBridgeEnabledVersion":"457","dfIMStaleRefreshEnabled":"1","dfIMStaleRefreshIntervalInMinutes":"10","dfIMStaleRefreshPathConfig":"{\"*\": 1 }","dfInstamartCPInterventionsDiffTimeInSecs":"3600","dfInstamartCPIntentBoosterEnableAndroidVCode":"1112","dfInstamartCPIntentBoosterEnableIOSVCode":"454","dfInstamartFrequencyCappingEnabled":"true","dfInstamartFrequencyCappingMaxRetries":"2"},"sessionHistory":[],"settings":{"abSettings":{"searchSettings":{"autosuggestEnabled":false},"homeSettings":{"enableNewLayout":false},"addressSettings":{"enableNewAddressFlow":false},"genieSettings":{"orderAnythingEnabled":true,"cancellationFee":"0","covidMapEnabled":false,"pudoEnabled":false,"pudoDisableMessage":"Due to high demand, our delivery executives are currently unavailable to pickup items","orderAnythingDisableMessage":"Due to high volume of orders \"Buy Anything\" is currently unavailable","pudoPaymentCalloutEnabled":false,"pudoPaymentCityDisabled":false,"pudoPaymentCityDisabledMessage":"For orders involving payments, please pay to the store or seller directly.","ux4Enabled":true,"genieDelFeeCommEnabled":false},"instamartSettings":{"showOnboardingVideoVariant":"0","ux4Enabled":false,"openKeyboardOnPreSearch":false,"cpIntentBoosterEnabled":false,"searchAutoSuggestEnabled":true,"ux4CartEnabled":false}},"paymentEndpointUrl":"https://payments.swiggy.com","newrelicKey":"CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk","newrelicEndpoint":"https://insights-collector.newrelic.com/v1/accounts/737486/events","analyticsHost":"https://analytics.swiggy.com"},"userAgentPlatform":"web","alertDialog":null,"firstPageLoad":true,"versionCode":"1200","isNativeBottomBarEnabled":false,"platform":"web","showCategoryFab":false},"cart":{"data":{"data":{},"statusCode":{}},"error":false,"init":false,"updating":false},"go":{"genieVideoOnboardingEnabled":false},"listing":{"category":{},"data":{},"init":false,"isSearchPreOrderEnabled":false,"preOrderData":{}},"menu":{"data":{},"error":false,"init":false,"menuListingData":{},"menuListingDataInit":false,"menuListingInfo":{},"showWelcomeBanner":true},"user":{},"instamart":{"categoryData":{},"collectionData":null,"homeData":{"error":false,"inProgress":false,"fetched":false,"data":{},"pageDataInProgress":false},"campaignListingData":{},"cachedCategoryData":{},"cachedProductItemData":null,"cachedCampaignListingData":null,"cachedCampaignMxnData":null,"cachedSearchData":null,"cpInterventionData":{"allowCPHomepageWidget":false,"allowWidgetDataFetch":false,"widgetData":null,"paymentTried":false}},"userLocation":{},"meats":{"preOrderToggleState":false,"isPreOrderStoreEnabled":false,"toggleOnboardingBannerData":{},"showToggleOnboardingBanner":false,"stockOutBannerData":{},"showStockOutBanner":false,"wiggleStockOutBanner":false,"preOrderToggleTransitionState":"REST","showSwitchToPreOrderNudge":false,"preOrderData":{}}};  var App = {
-        env: "production",
-        platform: "web",
-        subplatform: "mweb",
-        statusBarHeight: Number(0),
-        bottomOffset: Number(0),
-        isNativeBottomBarEnabled: Boolean(false),
-        isAccessbilityEnabled: Boolean(false),
-        versionCode: "1200",
-        swuid: "",
-        deviceId: "c32ebd00-115c-dcee-3795-fb24d2c0b321",
-        tid: "49aec4d2-88ec-4194-bcb2-21776675ca97",
-        sid: "5ma2ee36-b9dd-4da5-a0af-d41133b5c222",
-        token: "",
-        userId: "0",
-        paymentSecretKey: "",  userLocation: {},  analytics: {
-            endpoint: "https://analytics.swiggy.com",
-            swiggyliticsEndpoint: "https://analytics.swiggy.com",
-            platform: "web",
-            sequenceNumber: 1,
-            appVersionCode: "1200",
-            deviceId: "c32ebd00-115c-dcee-3795-fb24d2c0b321",
-            tid: "49aec4d2-88ec-4194-bcb2-21776675ca97",
-            sid: "5ma2ee36-b9dd-4da5-a0af-d41133b5c222",
-            userId: 0
-        },
-        frequencyCapping: {
-            endpoint: "https://profile.swiggy.com"
-        },
-        newrelic: {
-            endpoint: "https://insights-collector.newrelic.com/v1/accounts/737486/events",
-            key: "CPDMQSXvjxGCdL_E02P9eZ-NJcEg-uGk"
-        },
-        tnsApiEndpoint: "https://fna.swiggy.com",
-        userAgentPlatform: "web",
-        isBlockPushEnabled: true,
-        blockPushIosMinVersion: 430,
-        bottomBarEnabledPaths: {"app":{"/instamart/":1,"/instamart":1,"/go":1,"/go/":1,"/listing/30/":1,"/listing/30":1,"/listing/203/":1,"/listing/203":1},"web":{"/instamart/":1,"/instamart":1}},
-    };</script>  <script src="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/manifest.es6.33ddb9e3adaf33e6.js" onerror='captureError("https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/manifest.es6.33ddb9e3adaf33e6.js")' defer="defer"></script>  <script src="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/vendors.es6.e81e3325e64413f8.js" onerror='captureError("https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/vendors.es6.e81e3325e64413f8.js")' defer="defer"></script>  <script src="https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/app.es6.53d8d2fb679caa91.js" onerror='captureError("https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/js/app.es6.53d8d2fb679caa91.js")' defer="defer"></script>   <script type="text/javascript">"serviceWorker"in navigator&&"www.swiggy.com"!==window.location.host&&"staging.swiggy.com"!==window.location.host&&navigator.serviceWorker.register("/sw.js").then(function(o){console.log("Service Worker Registered!")}).catch(function(o){console.log("Service Worker registration failed: ",o)})</script>  <script>function shouldInjectNRScript() {
-        // hack to make it available to some users (or not all users)
-        if(App.platform && App.platform.toLowerCase()==="ios") {
-            return false;
-        }
-        const NR_BROWSER_MONITORING_MODULO = 10;
-        const deviceId = App.deviceId;
-        if (deviceId) {
-            const formattedDeviceIdentifier = deviceId.replace(new RegExp("-", "g"), "");
-            const deviceUniqueIdentifier = [...formattedDeviceIdentifier].map((char) => char.charCodeAt(0))
-                .reduce((current, previous) => previous + current);
-            if (deviceUniqueIdentifier % NR_BROWSER_MONITORING_MODULO < Number("2"))
-                return true;
-        }
-        return false;
-    }
-
-    if(shouldInjectNRScript()) {
-        loadJS("https://res.cloudinary.com/swiggy/raw/upload/static-assets/dash-front/libs/nr_browser_monitoring.js", function () {
-            newrelic.setErrorHandler(function (err) {
-                // stoping new relic to record JS errors
-                return true;
-            });
-
-            newrelic.setCustomAttribute("appVersion", App.appVersion);
-            newrelic.setCustomAttribute("sid", App.sid);
-            newrelic.setCustomAttribute("tid", App.tid);
-            newrelic.setCustomAttribute("userId", App.userId);
-            newrelic.setCustomAttribute("deviceId", App.deviceId);
-
-            if (typeof navigator === "undefined") {
-                return;
-            }
-            
-            logStorageEstimate();
-            logNetworkType();
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" integrity="sha256-TSp02LJeHM1LEpSwuTeAS8JK7qf0btrT88H5FgTScIw= sha384-W6zDc4jEri4gWFThpMUGi4mLe32jBw0ZxugduLgjxX0fonAL+pvrbr44/4NajxXR sha512-coFZ40o0456yIQDarTebJL6Uzxa9BvIfBXyghiaTV9u2RpS17gRM0yx95gq6w+K3wtepwJbmrtUFs1pPhsIxRQ==" crossorigin="anonymous" type="text/javascript" charset="UTF-8" data-domain-script="2e51f33c-7357-4726-a424-0e3731a745b2"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
 
-            function logStorageEstimate() {
-                if ("storage" in navigator && "estimate" in navigator.storage) {
-                    navigator.storage.estimate().then((estimate) => {
-                        const storageUsed = ((estimate.usage / estimate.quota) * 100).toFixed(
-                        2
-                        );
-                        newrelic.setCustomAttribute("storageUsed", storageUsed);
-                    })
-                    .catch(() => void 0);
-                }
-            }
 
-            function logNetworkType() {
-                if ("connection" in navigator && "effectiveType" in navigator.connection) {
-                    newrelic.setCustomAttribute(
-                        "networkType",
-                        navigator.connection.effectiveType
-                    );
-                }
-            }
-        });
-    }</script> <script type="text/javascript" id="firebasejs">var firebaseConfigStr = "{\"apiKey\": \"AIzaSyCGLz_2_0jHIAuMAfrd6-aC6_eR9ipo_4s\",\"authDomain\": \"swiggy-dash-73996.firebaseapp.com\",\"databaseURL\": \"https://swiggy-dash-73996.firebaseio.com\",\"projectId\": \"swiggy-dash-73996\",\"storageBucket\": \"\",\"messagingSenderId\": \"998365351392\",\"appId\": \"1:998365351392:web:58b36ccc326e9e70\",\"sdkURL\": \"https://www.gstatic.com/firebasejs/6.2.0/firebase-performance-standalone.js\"}";
-    var firebaseConfig;
-    if (firebaseConfigStr) { 
-        try {
-            firebaseConfig = JSON.parse(firebaseConfigStr)
-        } catch(e) {
-            // ignore
-        }
-    };
-    if (firebaseConfig && firebaseConfig.apiKey) {
-        (function(sdkSourceUrl, firebaseConfig) {
-            function load(f, c) {
-                // Creates a script tag to load the standalone SDK
-                var sdkScript = document.createElement('script');
+<title>HCL Group</title>
 
-                // Sets it to an async script so that it doesn't interfere with page load
-                sdkScript.async = 1;
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://hcl.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://hcl.com/wp-json/" />
+ 
+<link rel="icon" href="https://hcl.com/wp-content/themes/Hcl/img/favicon.ico" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" />
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/bootstrap.min.css" integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw= sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw= sha384-kcNNzf7wI8//ZkNUaDd5JwxLoFaBgkj9Z4O4NwtuX9Lkmsz0HoITOxJsGkYxDuyG sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw= sha384-8/AzSKHReNfZT4HGFTyRyJ1jXhhx/ZMnmX08Cy6TeaKWj0Vzho0AabG06C8mh02i sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0= sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/lightcase.css" integrity="sha256-qrboZqYnb1b+WhvhtcCYN22cdNgFpJ3oQ8g8TTnEWCs= sha384-garopryiCVBrDcldi8Vh4f1L+JKY4rVVGFy+6E2XNIo+q4vl4j+4KXdPyjO7f9Hn sha512-UbNEgpFIqGkAbyvxoLpFgpnH+k/Y4ncOlcppPzxU7UGz9Zars4RAYdxrhLe48gd7wBVADz9vPiQawb11aK69Sw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/responsive.css" />
 
-                // Sets the source of the script
-                sdkScript.src = f;
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/font.css" integrity="sha256-SdHerIyTMJiGNmggBjN53zhWdSC1pb9z9Ocq1HJ6UiU= sha384-EnBkwpeh9GKzFEuyyxde3M+KaAjDj9IPYLGAXUdAgRKw7n13saEvMwTfh4qCkcPn sha512-OI9UC92upkznI7zsl0SEI5AGJkvqx2/8DldpZ/MRgH9q7kXlxSwiNxfy1nPgFgoZjqK1AYlv44jQnfGnkkf5Rw==" crossorigin="anonymous" />
+<link href="https://hcl.com/wp-content/themes/Hcl/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://hcl.com/wp-content/themes/Hcl/css/newresponsive.css" />
 
-                // Inserts the script into the head of the page
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(sdkScript, s);
-            }
 
-            // Calls the load method
-            load(sdkSourceUrl);
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://www.googletagmanager.com/gtag/js?id=UA-11560841-24" integrity="sha256-KWNrAnCHHiuBEcx3s0HsphPRnRQCymZODuN5KU0By/k= sha384-nJ72AOAV0tanVhVoUEflUzPqVJV3r57Z4/jRVYosDcWnG5cAQ4rPl/+bjGrGAdZ7 sha512-4k8YYezLwmukN1TOPDajPmdKDiTfvb567U5GqXU+a3Mg9JZJlaBp5154U1lc0NlXqMAc5JnVhHL3FPwv9YbYlg==" crossorigin="anonymous"></script>
+<script>
 
-            // Initializes the SDK only when the onload method is called
-            window.onload = function() {
-                firebase && firebase.initializeApp(firebaseConfig).performance();
-            };
-        })(
-            firebaseConfig.sdkURL,
-            firebaseConfig
-        );
-    }</script></body></html>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+
+
+  gtag('config', 'UA-11560841-24');
+
+</script>
+
+</head>
+
+<body class="hcl-body home">
+<header class="header">
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div class="col-md-2">
+        <div class="logo"> <a href="https://hcl.com/"><!--<img src="https://hcl.com/wp-content/themes/Hcl/img/logo.png" alt="HCL">-->
+          <svg xmlns="https://www.w3.org/2000/svg" width="109.939" height="15.706" viewBox="0 0 109.939 15.706">
+            <g id="Group_1119" data-name="Group 1119" transform="translate(-61 -34)">
+              <g id="Group_1118" data-name="Group 1118">
+                <g id="Group_1117" data-name="Group 1117">
+                  <g id="Group_1116" data-name="Group 1116">
+                    <g id="Group_1115" data-name="Group 1115">
+                      <g id="Group_1114" data-name="Group 1114">
+                        <g id="Group_1113" data-name="Group 1113">
+                          <g id="Group_54" data-name="Group 54">
+                            <path id="Path_280" class="animate" data-name="Path 280" d="M1198.532,68.625h11.927l2.559-5.861h11.69l-2.621,5.856h12.073l6.618-14.682h-12.155l-2.187,4.953h-11.682l2.215-4.953h-11.81Z" transform="translate(-1137.532 -19.412)" fill="#006bb6" fill-rule="evenodd"/>
+                            <path id="Path_281" class="animate" data-name="Path 281" d="M1267.232,58.932h11.294c-.078-2.465-2.468-4.17-7.185-4.852-9.32-1.368-19.406-.788-26.576,3.178-5.658,3.134-6.09,7.869-.456,10.18,4.743,1.936,14.708,2.135,21.832.925,4.619-.785,8.149-2.3,10.128-4.571h-11.534a9.338,9.338,0,0,1-5.718,1.74c-6.473.039-7.329-1.917-6.2-4.171,1.337-2.659,4.158-4.1,8.451-4.222,3.381-.086,5.054.657,5.962,1.793" transform="translate(-1137.532 -19.412)" fill="#006bb6" fill-rule="evenodd"/>
+                            <path id="Path_282" class="animate" data-name="Path 282" d="M1296.54,53.935l-5.014,11.177h16.945l-1.575,3.5h-29.144l6.565-14.675Z" transform="translate(-1137.532 -19.412)" fill="#006bb6" fill-rule="evenodd"/>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+          </a> </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-between">
+        <form role="search"  method="POST" id="searchform" action="https://hcl.com">
+          <div class="search-icon d-flex">
+            <div class="input-container">
+              <input type="text"  class="form-control search-input" autocomplete="off" required  pattern="[a-zA-Z0-9\s]+" placeholder="Search here"  name="s" id="s" />
+              
+              <!-- <input type="submit" id="searchsubmit" value="Search" /> --> 
+              
+            </div>
+            <input type="submit" class="search" id="searchsubmit" aria-hidden="true" />
+            <!-- <i class="fa fa-search " ></i> -->
+          
+          </div>
+        </form>
+        <div class="burger">
+          <div class="b1 b"></div>
+          <div class="b2 b"></div>
+          <div class="b3 b"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="blackOverlay"></div>
+<div class="close-overlay">
+  <div class="close-box"> 
+    
+    <!-- <div class="first"></div>
+
+
+
+            <div class="second"></div> --> 
+    
+    <i class="fa fa-times" aria-hidden="true"></i> </div>
+</div>
+<section class="enterprise-animate">
+  <div class="hcl-enterprise">
+    <h1>HCL Group</h1>
+    <p>Human Potential. Multiplied</p>
+  </div>
+</section>
+<div class="menu-overlay"> </div>
+<div class="show-menu">
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li><a href="#">HCL Group <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div class="drop-menu">
+              <ul>
+                <li> <a href="https://hcl.com/about/"> About Us</a></li>
+                <li> <a href="https://hcl.com/leadership/"> Leadership</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Brand HCL <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div class="drop-menu">
+              <ul>
+                <li> <a href="https://hcl.com/humanpotentialmultiplied/"> HCL Brand Purpose</a></li>
+                <li> <a href="https://hcl.com/hcl-story/"> HCL Story</a></li>
+                <li> <a href="https://hcl.com/sports/"> HCL for Sports </a></li>
+                <li> <a href="https://hcl.com/hcl-concert/"> HCL Concerts </a></li>
+                <li> <a href="https://hcl.com/hcl-jigsaw/"> HCL Jigsaw</a></li>
+                <li> <a href="https://hcl.com/brand-guidelines/"> Brand Guidelines</a></li>
+                <li> <a href="https://hcl.com/brand-store/"> HCL Brand Store</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Media Center <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div class="drop-menu">
+              <ul>
+                <li> <a href="https://hcl.com/videos/"> Videos </a></li>
+                <li> <a href="https://hcl.com/press/"> Press Releases </a></li>
+                <li> <a href="https://hcl.com/news/"> News</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="https://hcl.com/contact/">Contact Us <i class="fa fa-angle-right" aria-hidden="true"></i></a> </li>
+        </ul>
+      </div>
+      <div class="row menuFooter">
+        <div class="col-md-7">
+          <p><a href="https://hcl.com/privacy-statement/"> Privacy Statement</a> / <a href="https://hcl.com/sitemap/">Sitemap</a></p>
+          <p> &copy; Copyright 2023. HCL</p>
+        </div>
+        <div class="col-md-5">
+          <div class=" menuicon">
+            <ul>
+              <li><a href="https://www.facebook.com/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/hcl-enterprise/" rel="noopener noreferrer" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.youtube.com/user/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.instagram.com/hcl_enterprise/" rel="noopener noreferrer" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<section class="gray hcgrp">
+<div class="bgwht wow fadeInLeft" data-wow-duration="8s" data-wow-offset="10">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+         <!--  <div class="glob"> <img class="img-fluid" src=" //echo get_template_directory_uri();?>/img/glob.png" alt=""> </div> -->
+          <div class="intro-box">
+            <h1 class="intro_title">HCL Group</h1>
+                                    
+<p>Established in 1976 as one of India’s original IT garage start-ups, HCL is a pioneer of modern computing with many firsts to its credit, including the introduction of the 8-bit microprocessor-based computer in 1978 well before its global peers.</p>
+                                  <!--   <ul>
+              <li><a href="/* //echo site_url('/about/')?>">About</a></li>
+              <li><a href=" //echo site_url('/leadership/')?>">Leadership</a></li>
+              <li><a href=" //echo site_url('/press/')?>">News</a></li>
+              <li><a href="#brand">HCL Brand</a></li>
+            </ul> -->
+          </div>
+      </div>
+      </div>
+    </div>
+   </div>
+        
+    <div class="container-fluid">
+     <div class="row">
+      <div class="col-12 mt-2">
+        <div class="row no-gutters main-menu-row align-items-center mt-2">
+          <div class="vertical-line"></div>
+          <div class="col-md-12 col-lg-6 col-xl-4 col-12 blueBars">
+            <div class="main-menu space-left ptext">
+              <p class="commitment commitment-business " >Group Companies </p>
+              <span class="commitementImg img-animate wow fadeInLeft" data-wow-duration="3s" data-wow-offset="10"><img src="https://hcl.com/wp-content/themes/Hcl/img/commitmentBg.png" alt=""></span>
+            </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-8 col-12 blueBars">
+            <div class="main-menu space-left">
+              <ul class="menuBlue">
+                                                <ul>
+<li class="first-li">
+<p>HCLTech<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.hcltech.com/" target="_blank">hcltech.com</a></p>
+<div class="clearfix"></div>
+<div class="addli" data-list="first">
+<div class="url"><a href="https://www.hcltech.com/" target="_blank">hcltech.com <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>HCLTech is a next-generation global technology company that helps enterprises reimagine their businesses for the digital age. Our technology products, services, and engineering prowess are built on the back of four decades of innovation, with a world-renowned management philosophy, a strong culture of invention and risk-taking, and a relentless focus on customer relationships.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://www.hcltech.com/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                                                                <ul>
+<li class="first-li first-li-fade">
+<p>HCLSoftware<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.hcltechsw.com/" target="_blank">hcltechsw.com</a></p>
+<div class="clearfix"></div>
+<div class="addli addli-fade" data-list="first">
+<div class="url"><a href="https://www.hcltechsw.com/" target="_blank">hcltechsw.com <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>HCLSoftware is a division of HCL Technologies (HCL) that operates its primary software business. It develops, markets, sells, and supports over 30 product families in the areas of Customer Experience, Digital Solutions, Secure DevOps, Security &#038; Automation.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://www.hcltechsw.com/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                                                                <ul>
+<li class="first-li">
+<p>HCL Healthcare<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://hclhealthcare.in/" target="_blank">hclhealthcare.in</a></p>
+<div class="clearfix"></div>
+<div class="addli" data-list="first">
+<div class="url"><a href="https://hclhealthcare.in/" target="_blank">hclhealthcare.in <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>HCL Healthcare is one of India’s largest corporate health solutions firms, providing end-to-end healthcare solutions with a vision to make corporate India a healthier place. Today, HCL Healthcare is delivering personalized, sustainable and managed care health solutions to organizations across sectors including technology and banking. It has eight world-class corporate health centers across the country serving over 70,000 families.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://hclhealthcare.in/specialties-and-services/health-checkup/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                                                                <ul>
+<li class="first-li">
+<p>HCL Infosystems<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.hclinfosystems.in/" target="_blank">hclinfosystems.in</a></p>
+<div class="clearfix"></div>
+<div class="addli" data-list="first">
+<div class="url"><a href="https://www.hclinfosystems.in/" target="_blank">hclinfosystems.in <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>HCL Infosystems is an IT services, solutions &amp; distribution company providing the choice of multi-brand global technology products and the capability of best-in-class, business-aligned IT services and solutions.</p>
+<div class="clearfix"></div>
+<p> <a class="know-more" href="https://www.hclinfosystems.in/" rel="noopener noreferrer" target="_blank">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                              </ul>
+              </div>
+                </div>
+            </div>
+          </div>
+          </div>
+          <div class="row no-gutters main-menu-row align-items-center">
+             <div class="col-md-12 col-lg-6 col-xl-4 col-12 whiteBars">
+                <div class="menu-white ptext">
+                 <p class="commitment commitment-society" >Philanthropy & CSR</p>
+                 <span class="commitementImg img-animate wow fadeInLeft" data-wow-duration="3s" data-wow-offset="10"><img src="https://hcl.com/wp-content/themes/Hcl/img/commitmentBg.png" alt=""></span>
+                 </div>
+               </div>
+            <div class="col-md-12 col-lg-6 col-xl-8 col-12 whiteBars">
+            <div class="menu-white">
+              <ul class="menuWhite">
+                                                <ul>
+<li class="second-li">
+<p>HCL Foundation<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.hclfoundation.org/" target="_blank">hclfoundation.org</a></p>
+<div class="clearfix"></div>
+<div class="second-addli" data-list="second-addli">
+<div class="url"><a href="https://www.hclfoundation.org/" target="_blank">hclfoundation.org <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>HCL Foundation (HCLF) was established in 2011 as the Corporate Social responsibility arm of HCL Technologies in India. It is a value-driven, not-for-profit organization that thrives in contributing toward national and international development goals, impacting the lives of people and communities through long-term sustainable programs.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://www.hclfoundation.org/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                                                                <ul>
+<li class="second-li">
+<p>Shiv Nadar Foundation<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.shivnadarfoundation.org/" target="_blank">shivnadarfoundation.org</a></p>
+<div class="clearfix"></div>
+<div class="second-addli" data-list="second-addli">
+<div class="url"><a href="https://www.shivnadarfoundation.org/" target="_blank">shivnadarfoundation.org<i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>The Shiv Nadar Foundation was established in 1994 by Shiv Nadar to work towards the creation of a more equitable, merit-based society by empowering individuals through transformational education to bridge the socio-economic divide.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://www.shivnadarfoundation.org/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+</div>
+<div></div>
+</li>
+</ul>
+                                                                                <ul>
+<li class="second-li">
+<p>The Habitats Trust<i class="fa fa-chevron-right" aria-hidden="true"></i><a href="https://www.thehabitatstrust.org/" target="_blank">thehabitatstrust.org</a></p>
+<div class="clearfix"></div>
+<div class="second-addli" data-list="second-addli">
+<div class="url"><a href="https://www.thehabitatstrust.org/" target="_blank">thehabitatstrust.org <i class="fa fa-external-link" aria-hidden="true"></i></a></div>
+<p>The Habitats Trust is a coalition of passionate individuals coming together with the aim of securing India’s natural habitats and their indigenous species. The mission of the Trust is to create and conserve sustainable ecosystems through strategic partnerships and collaborations with all stakeholders at every level.</p>
+<div class="clearfix"></div>
+<p><a class="know-more" href="https://thehabitatstrust.org/" target="_blank" rel="noopener noreferrer">Know more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+</div>
+<div></div>
+</li>
+</ul>
+                                              </ul>
+              </div>
+            </div>
+            </div>
+            </div>
+</section>
+<section class="gray">
+  <div class="slider">
+    <div class="hcl-slider">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class=active ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"  ></li>
+          <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+                  </ol>
+        <div class="carousel-inner">
+                    <div class="carousel-item active " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2022/09/Global-Freshwater-Challenge1.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://uplink.weforum.org/uplink/s/uplink-issue/a002o0000173B6sAAE/global-freshwater-challenge?activeTab=Challenge-Overview">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL and UpLink Call for Applications Globally for Aquapreneur Innovation Initiative</spam>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://uplink.weforum.org/uplink/s/uplink-issue/a002o0000173B6sAAE/global-freshwater-challenge?activeTab=Challenge-Overview"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2022/09/Aquapreneur1.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2022/08/web-banner-background-HCL.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">Celebrating 46 years of HCL</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                              </div>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2022/08/Celebrating-46-years-of-HCL.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2022/05/Aquapreneur-HCL-1.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://hcl.com/wp-content/uploads/2022/05/220523_Press-Release_HCL-Uplink-Partner_for-website.pdf">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL commits $15 million to accelerate global freshwater conservation efforts</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://hcl.com/wp-content/uploads/2022/05/220523_Press-Release_HCL-Uplink-Partner_for-website.pdf"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2022/05/Aquapreneur-HCL.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2022/05/2.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL and UNLEASH partner to develop solutions for aquatic ecosystem conservation</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                              </div>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2022/05/1-1.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2022/05/shiv-nadar.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">Engineering Council of India Honored Mr. Shiv Nadar with the Eminent Engineer Award</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                              </div>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2022/05/shiv-nadar-HCL.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2021/06/edelweiss-1.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://www.edelweissresearch.com/Reports/Get/2D545387-0520-467A-BBBA-C7C2244F9DA9?fbclid=IwAR1J2Zb39qKEmCmZV2LjjoapsJn3Sb-GVS6MdT0aW5bUwbPAtvrukGaaN7E">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL is proud to be ranked #1 in India on Edelweiss ESG Scorecard 2021</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://www.edelweissresearch.com/Reports/Get/2D545387-0520-467A-BBBA-C7C2244F9DA9?fbclid=IwAR1J2Zb39qKEmCmZV2LjjoapsJn3Sb-GVS6MdT0aW5bUwbPAtvrukGaaN7E"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2021/06/512x334.png" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2021/02/grant-16-02.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://www.hclfoundation.org/hcl-grant">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL Grant 2021 Recipients</span>                        </h3>
+                        <h5>
+                          <p>Environment: SAAHAS<br />
+Health: India Health Action Trust<br />
+Education: Child Rights and You</p>
+                        </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://www.hclfoundation.org/hcl-grant"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2021/02/Web-banner-winners-512x334-1.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2020/09/1-1.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://www.forbes.com/sites/meghabahree/2020/09/14/roshni-nadar-malhotra-of-hcl-technologies-looks-to-ride-the-digitalization-wave/#3f6ce2d2e82b">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">Forbes Asia recognizes Roshni Nadar Malhotra</span>                        </h3>
+                        <h5>
+                          <p><span class="here">as one of the <span>top 25 businesswomen</span> in Asia.</span></p>
+                        </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://www.forbes.com/sites/meghabahree/2020/09/14/roshni-nadar-malhotra-of-hcl-technologies-looks-to-ride-the-digitalization-wave/#3f6ce2d2e82b"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2020/09/raushni.jpg" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="carousel-item  " >
+            <div>
+                            <img  src="https://hcl.com/wp-content/uploads/2020/08/slider-bg-1.jpg" alt="" />
+                            <div class="slider-content">
+                <div class="container-fluid">
+                  <div class="row align-items-center">
+                    <div class="col-md-6">
+                                            <a  class="covid-link" href="https://www.hclsrilanka.com/">
+                                            <div class="covid">
+                        <h2>
+                                                  </h2>
+                        <h3>
+                          <span class="may">HCL inaugurates its first Global Delivery Center in Sri Lanka</span>                        </h3>
+                        <h5>
+                                                  </h5>
+                        <h2>
+                                                  </h2>
+                                                <a  href="https://www.hclsrilanka.com/"  class="know-more"> Know More <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                              </div>
+                                            </a>
+                                          </div>
+                    <div class="col-md-6"> <img  src="https://hcl.com/wp-content/uploads/2020/09/2020-09-30.png" alt=""> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-space stayed  section-space-bottom" id="brand">
+  <div class="container-fluid">
+    <div class="brand-row brand-row-786">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="brand">
+            <h4>Brand HCL</h4>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="startup">
+                                                                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="brand-hcl">
+  <div class="container">
+    <div class="brand-row">
+      <ul>
+      <li class="d-flex">
+          <div class="hcl-story-box">
+            <ul>
+              <li class="story-box-color">
+                <div class=" initiative">
+                  <div class=" content story-box story">
+                    <div class="content-box"> <a class="guid" href="https://hcl.com/humanpotentialmultiplied/"> HCL BRAND PURPOSE</a>
+                                                                  <p>HCL believes that collective actions can help in multiplying the potential of not just individuals but communities at large.</p>
+                                                                  <a href="https://hcl.com/humanpotentialmultiplied/">
+                      <div class="plus-icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                      </a> </div>
+                  </div>
+                </div>
+              </li>
+              <li  class="story-box-color">
+                <div class=" initiative">
+            <div class="content new-box story-box brand">
+              <div class="content-box "> <a class="guid" href="https://hcl.com/hcl-story/">HCL STORY </a>
+                                                <p>The HCL journey has been relentless, gratifying and marked with a series of achievements.</p>
+                                                <a href="https://hcl.com/hcl-story/">
+                <div class="plus-icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                </a> </div>
+            </div>
+          </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="d-flex ">
+          <div class=" initiative">
+            <div class="brand-color content">
+              <div class="content-box">
+                <h2>BRAND INITIATIVES</h2>
+                                                
+<p>   HCL aims to multiply potential of not only individuals but society at large. Therefore, it heavily invests in promoting sports &#038; music by providing platform to talented artists and  athletes.
+                        </p>
+                                                <ul>
+                  <li><a href="https://hcl.com/sports/">HCL for Sports </a> </li>
+                  <li><a href="https://hcl.com/hcl-concert/">HCL Concerts</a> </li>
+                  <li><a href="https://hcl.com/hcl-jigsaw/">HCL Jigsaw</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        
+        <li class="d-flex">
+          <div class="hcl-story-box">
+            <ul>
+              <li class="story-box-color">
+                <div class=" initiative">
+                  <div class=" content story-box story">
+                    <div class="content-box"> <a class="guid" href="https://hcl.com/brand-guidelines/"> BRAND GUIDELINES</a>
+                                                                  <p>The brand guidelines ensure consistent communication and accurate representation of organization across all channels and touchpoints.</p>
+                                                                  <a href="https://hcl.com/brand-guidelines/">
+                      <div class="plus-icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                      </a> </div>
+                  </div>
+                </div>
+              </li>
+              <li  class="story-box-color">
+                <div class=" initiative">
+                  <div class=" content story-box store-box">
+                    <div class="content-box"> <a class="guid" href="https://hcl.com/brand-store/">HCL BRAND STORE</a>
+                                                                  <p>Home to a variety of HCL branded apparel and merchandise.</p>
+                                                                  <a href="https://hcl.com/brand-store/">
+                      <div class="plus-icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
+                      </a> </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<div class="clearfix"></div>
+<footer class="section-s pace">
+    <div class="container-footer">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="https://hcl.com/sitemap/">Sitemap </a></li>
+                        <li><a href="https://hcl.com/terms-of-use/"> Terms of use</a></li>
+                        <li><a href="https://hcl.com/cookie-statement/"> Cookie Statement</a></li>
+                        <li><a href="https://hcl.com/privacy-statement/"> Privacy Statement</a></li>
+                        <!-- <li><a href=""> Cookie Policy</a></li> -->
+                        <li><a href="https://hcl.com/disclaimer/"> Disclaimer</a></li>
+                        <li><a href="https://hcl.com/gallery/"> Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+               
+            </div>
+            <div class="col-md-3">
+                <div class="footer-logo">
+                    <img src="https://hcl.com/wp-content/themes/Hcl/img/logo.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                
+                <div class="clearfix"></div>
+                <div class="social-contact">
+                    <ul>
+                        <li><a href="https://hcl.com/contact/">Contact </a></li>
+                        <li><a href="https://www.facebook.com/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/hcl-enterprise/" rel="noopener noreferrer" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/HCLEnterprise" rel="noopener noreferrer" target="_blank"> <i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/hcl_enterprise/" rel="noopener noreferrer" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="//privacy.truste.com/privacy-seal/validation?rid=0e63679a-9da7-4a90-90fe-c4ba0bb5e06b" target="_blank" rel="noopener noreferrer"><img style="border: none" src="//privacy-policy.truste.com/privacy-seal/seal?rid=0e63679a-9da7-4a90-90fe-c4ba0bb5e06b" alt="TRUSTe"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="copywrite pull-right">
+                <!--<a class="main-popup" href="https://www.youtube.com/embed/PUjJeFAoL1c" rel="ajax:modal" style="display:none;">popup</a>-->
+                     <p>&copy; Copyright 2023 HCL</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+    <!--script src="https://hcl.com/wp-content/themes/Hcl/js/jquery-3.5.1.slim.min.js"></script-->
+	<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+	
+	 <script src="https://hcl.com/wp-content/themes/Hcl/js/jquery-3.4.1.min.js"  integrity="sha256-KzgTY92gSfLUmlkDeyKLyGXVH/uXfI9cNUfVwo3kjjo= sha384-v/CvOfYoICV4azK6zXTy9qXP6UwbdbFVuxd2Lorpes7n5YVsaU1bQqIalcktKchl sha512-gfO001qqmK8ZpNMe5TmdSeD3DOUqre//v0LGxEidnVCklFDuyOkTmgCdqCtXv2d2Zakm1a6RPfxMdLruwYbEIg==" crossorigin="anonymous"></script>
+	 <script src="https://hcl.com/wp-content/themes/Hcl/js/bootstrap.min.js" integrity="sha256-OFRAJNoaD8L3Br5lglV7VyLRf0itmoBzWUoM+Sji4/8= sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI sha512-I5TkutApDjnWuX+smLIPZNhw+LhTd8WrQhdCKsxCFRSvhFx2km8ZfEpNIhF9nq04msHhOkE8BMOBj5QE07yhMA==" crossorigin="anonymous"></script>
+    <script src="https://hcl.com/wp-content/themes/Hcl/js/gsap.min.js" integrity="sha256-H2tMWhPHr7Lxbj8mGEsD+LKh3FLGnpyKqRXx1E/w7Ls= sha384-uhMJlHkIp/3AFKY+G72HGazpvmjiN86sjZNixBwUw5vV+XJEdETVjalc+ZMKHLXc sha512-+qwgMlfuCnrS0Z+RY8+hjP3K5D+jRwAC3Lhqm77uRDKoTnisuAtpWPwAlQXI4G1dSXPPuANhAQSMqSLPFui2Fw==" crossorigin="anonymous"></script>
+    <script src="https://hcl.com/wp-content/themes/Hcl/js/lightcase.js" integrity="sha256-JGxU3baAt/NbIxYv7Q9N1++XNGhnDiVg1gAKIOjDf94= sha384-WuoYeizDfN4l+dsdgZjETSMrXd8NaPbj7eL2OA+FZOP5Cdup3iUsM7orPLb73VmT sha512-pAAg9M8fqVVFVed309Efp1gs5v2CM4+e25yWTCk38YIQi7r2sbTqAq3n9KldjNfF0pF3tR6M9ZWN3vYoK0CMsw==" crossorigin="anonymous"></script>
+    <script src="https://hcl.com/wp-content/themes/Hcl/js/popper.min.js" integrity="sha256-pTYb5I5kKX8jBGqUgBBnv89kQ5HHbeYky85VYONdZgs= sha384-BPA3IrVdRW0hkMZCb7fowZXj9mQC3iKL5A2tI77YRJolQxirVT/IyMFAQg9mtoWe sha512-jwp48McLyk6MquF6g6ZJkqu8PF8CqH0wZ2WEVqepPWTvw6YW5bNHfcBa+l/SVUIbM0i7jBk0h1TOrICw7AKSQg==" crossorigin="anonymous"></script>
+    <script src="https://hcl.com/wp-content/themes/Hcl/js/owl.carousel.min.js"  integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0= sha384-l/y5WJTphApmSlx76Ev6k4G3zxu/+19CVvn9OTKI7gs4Yu5Hm8mjpdtdr5oyhnNo sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- <script src="/js/masonry.js"></script> -->
+	 <script>
+  
+
+ window.onload = function() {
+    startWeb()
+};
+ 
+
+</script>
+  
+
+<script src="https://hcl.com/wp-content/themes/Hcl/js/app.js" integrity="sha256-JnY1zzbYk2PZR4h4koZM1tDfODrCvOFYf6Ha6JdXxRs=" crossorigin="anonymous"></script>
+<!-- OneTrust Cookies Settings button start -->
+<button id="ot-sdk-btn" class="ot-sdk-show-settings"> Cookie Settings</button>
+<!-- OneTrust Cookies Settings button end --><script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.9.2/parsley.min.js" integrity="sha512-eyHL1atYNycXNXZMDndxrDhNAegH2BDWt1TmkXJPoGf1WLlNYt08CSjkqF5lnCRmdm3IrkHid8s2jOUY4NIZVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script></script>
+
+
+</body>
+</html>
